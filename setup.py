@@ -27,6 +27,7 @@ setup(
         'rocker.extensions': [
             'mp_vim_dev = mp_rocker.vim_dev:VimDev',
             'mp_zsh = mp_rocker.zsh:Zsh',
+            'mp_en_us_locale = mp_rocker.en_us_locale:EnUSLocale',
         ]
     },
 )
