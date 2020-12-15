@@ -1,11 +1,11 @@
 # My personal rocker extensions
 
-## Vim Dev
+## Dev Helpers
 
-Install `vim` with, e.g.:
+Install packages useful for development with, e.g.:
 
 ```
-rocker --mp-vim-dev ubuntu:bionic
+rocker --mp-dev-helpers ubuntu:bionic
 ```
 
 ## Zsh

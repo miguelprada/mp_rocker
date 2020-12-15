@@ -3,9 +3,9 @@ import pkgutil
 from rocker.extensions import RockerExtension
 
 
-class VimDev(RockerExtension):
+class DevHelpers(RockerExtension):
 
-    name = 'mp_vim_dev'
+    name = 'mp_dev_helpers'
 
     @classmethod
     def get_name(cls):
@@ -13,7 +13,7 @@ class VimDev(RockerExtension):
 
     def __init__(self):
         self._env_subs = None
-        self.name = VimDev.get_name()
+        self.name = DevHelpers.get_name()
 
     def get_environment_subs(self):
         if not self._env_subs:
@@ -29,7 +29,7 @@ class VimDev(RockerExtension):
 
     @staticmethod
     def register_arguments(parser, defaults={}):
-        parser.add_argument('--mp-vim-dev',
+        parser.add_argument('--mp-dev-helpers',
             action='store_true',
-            help='install vim-based development tools')
+            help='install development tools')
 
