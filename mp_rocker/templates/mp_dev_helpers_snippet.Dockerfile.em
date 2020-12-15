@@ -8,5 +8,6 @@ RUN apt-get update \
         cmake \
         gdb \
         git \
+        less \
         vim-nox \
     && apt-get clean
