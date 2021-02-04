@@ -28,6 +28,7 @@ setup(
             'mp_dev_helpers = mp_rocker.dev_helpers:DevHelpers',
             'mp_zsh = mp_rocker.zsh:Zsh',
             'mp_en_us_locale = mp_rocker.en_us_locale:EnUSLocale',
+            'mp_dind_host = mp_rocker.dind_host:DindHost',
         ]
     },
 )
