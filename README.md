@@ -41,3 +41,11 @@ sudo usermod -aG docker <USER_NAME>
 # A new session will need to be started for these changes to take effect
 ```
 
+## Kitware CMake
+
+Install an up-to-date version of CMake from Kitware's own repository with, e.g.:
+
+```
+rocker --mp-kitware-cmake ubuntu:bionic
+```
+
