@@ -31,6 +31,7 @@ setup(
             'mp_dind_host = mp_rocker.dind_host:DindHost',
             'mp_kitware_cmake = mp_rocker.kitware_cmake:KitwareCmake',
             'mp_nvim = mp_rocker.nvim:NVim',
+            'mp_nvim_nightly = mp_rocker.nvim:NVimNightly',
         ]
     },
 )
