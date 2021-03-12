@@ -8,6 +8,16 @@ Install packages useful for development with, e.g.:
 rocker --mp-dev-helpers ubuntu:bionic
 ```
 
+## Neovim
+
+Install neovim stable/nightly from PPA with, e.g.:
+
+```
+rocker --mp-nvim ubuntu:bionic
+```
+
+Use `--mp-nvim-nightly` to install the nightly builds.
+
 ## Zsh
 
 Install `zsh` with, e.g.:
