@@ -7,7 +7,6 @@ RUN add-apt-repository ppa:neovim-ppa/unstable
 
 RUN apt-get update \
     && apt-get install -y \
-        clangd \
         neovim \
     && rm -rf /var/lib/apt/lists/* \
               /etc/apt/trusted.gpg.d/kitware.gpg
