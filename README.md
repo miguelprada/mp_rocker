@@ -59,3 +59,12 @@ Install an up-to-date version of CMake from Kitware's own repository with, e.g.:
 rocker --mp-kitware-cmake ubuntu:bionic
 ```
 
+## NVIDIA OpenCL
+
+Add support for using OpenCL with NVIDIA hardware with, e.g.:
+
+```
+rocker --nvidia --mp-nvidia-opencl ubuntu:bionic
+```
+
+Note that this extension requires `--nvidia` extension to be used as well.
