@@ -1,5 +1,5 @@
 # Development-related required and optional utils
-RUN DEBIAN_FRONTEND=noninteractive; \
+RUN export DEBIAN_FRONTEND=noninteractive; \
     apt-get update \
     # Required packages
     && apt-get install -y \
