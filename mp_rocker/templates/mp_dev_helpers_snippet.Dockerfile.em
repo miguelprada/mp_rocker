@@ -10,7 +10,8 @@ RUN export DEBIAN_FRONTEND=noninteractive; \
       -e clang-tidy-10 \
       -e clang-tidy \
       -e clangd-10 \
-      -e clangd) \
+      -e clangd \
+      -e ripgrep) \
     # Required packages
     && apt-get install -y \
         build-essential \
@@ -18,7 +19,9 @@ RUN export DEBIAN_FRONTEND=noninteractive; \
         cmake \
         gdb \
         git \
+        git-lfs \
         less \
+        tree \
         ${EXISTING_OPTIONAL_PACKAGES} \
     # Clean
     && apt-get clean
