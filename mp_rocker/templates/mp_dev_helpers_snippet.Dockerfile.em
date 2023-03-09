@@ -22,6 +22,7 @@ RUN export DEBIAN_FRONTEND=noninteractive; \
         git-lfs \
         less \
         tree \
+        xclip \
         ${EXISTING_OPTIONAL_PACKAGES} \
     # Clean
     && apt-get clean
