@@ -16,5 +16,7 @@ RUN add-apt-repository \
 RUN apt-get update \
     && apt-get install -y \
         docker-ce-cli \
+        docker-compose \
+        golang-docker-credential-helpers \
     && rm -rf /var/lib/apt/lists/*
 
