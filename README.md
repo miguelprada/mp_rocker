@@ -58,4 +58,10 @@ Install an up-to-date version of CMake from Kitware's own repository with, e.g.:
 ```
 rocker --mp-kitware-cmake ubuntu:bionic
 ```
+## NodeSource Node.js
 
+Install LTS version of Node.js from [NodeSource binary distributions](https://github.com/nodesource/distributions) with, e.g.:
+
+```bash
+rocker --mp-nodesource-nodejs ubuntu:bionic
+```
