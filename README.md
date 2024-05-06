@@ -65,3 +65,11 @@ Install LTS version of Node.js from [NodeSource binary distributions](https://gi
 ```bash
 rocker --mp-nodesource-nodejs ubuntu:bionic
 ```
+
+## Git PPA
+
+Install recent git from PPA with, e.g.:
+
+```
+rocker --mp-git-ppa ubuntu:bionic
+```
