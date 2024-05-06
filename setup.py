@@ -33,6 +33,7 @@ setup(
             'mp_nvim = mp_rocker.nvim:NVim',
             'mp_nvim_nightly = mp_rocker.nvim:NVimNightly',
             'mp_nodesource_nodejs = mp_rocker.nodesource_nodejs:NodesourceNodejs',
+            'mp_git_ppa = mp_rocker.git_ppa:GitPPA',
         ]
     },
 )
