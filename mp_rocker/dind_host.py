@@ -28,7 +28,7 @@ class DindHost(RockerExtension):
         return em.expand(snippet, self.get_environment_subs())
 
     def get_docker_args(self, cliargs):
-        return '-v /var/run/docker.sock:/var/run/docker.sock'
+        return ' -v /var/run/docker.sock:/var/run/docker.sock'
 
     @staticmethod
     def register_arguments(parser, defaults={}):
