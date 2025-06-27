@@ -21,6 +21,7 @@ RUN export DEBIAN_FRONTEND=noninteractive; \
         git \
         git-lfs \
         less \
+        ssh \
         tree \
         xclip \
         ${EXISTING_OPTIONAL_PACKAGES} \
