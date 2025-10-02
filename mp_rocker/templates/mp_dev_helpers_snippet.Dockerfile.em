@@ -5,11 +5,14 @@ RUN export DEBIAN_FRONTEND=noninteractive; \
     && EXISTING_OPTIONAL_PACKAGES=$(apt-cache --generate pkgnames | grep --line-regexp --fixed-strings \
       -e clang-format-6.0 \
       -e clang-format-10 \
+      -e clang-format-18 \
       -e clang-format \
       -e clang-tidy-6.0 \
       -e clang-tidy-10 \
+      -e clang-tidy-18 \
       -e clang-tidy \
       -e clangd-10 \
+      -e clangd-18 \
       -e clangd \
       -e ripgrep) \
     # Required packages
