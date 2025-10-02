@@ -24,9 +24,15 @@ RUN export DEBIAN_FRONTEND=noninteractive; \
         git \
         git-lfs \
         less \
+        python3-pip \
         ssh \
         tree \
         xclip \
         ${EXISTING_OPTIONAL_PACKAGES} \
     # Clean
-    && apt-get clean
+    && apt-get clean \
+    && PIP_BREAK_SYSTEM_PACKAGES=1 python3 -m pip install \
+        black \
+        isort \
+        vcstool \
+        git+https://github.com/rhaschke/colcon-top-level-workspace.git#egg=colcon-top-level-workspace
